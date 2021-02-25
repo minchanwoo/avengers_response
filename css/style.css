@@ -75,3 +75,24 @@ a {
     transform: scale(1.02);
     transition: all ease 0.3s;
 }
+
+.box:hover .marvel {
+    color: #c0292b;
+    transition: all ease 0.5s;
+}
+
+/*---- responsive for mobile phone ----*/
+
+@media(max-width: 720px) {
+    .box {
+        width: 94%;
+        height: 500px;
+    }
+    .model {
+        height: 250px;
+    }
+    .details p {
+        font-size: 16px;
+        width: 250px;
+    }
+}
