@@ -79,6 +79,7 @@
     margin: 10px 0 0;
     padding: 0;
     text-align: center;
+    display: none;
 }
 .lSSlideOuter .lSPager.lSpg > li {
     cursor: pointer;
